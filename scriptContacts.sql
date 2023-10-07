@@ -1,0 +1,10 @@
+CREATE DATABASE RegistreContactsDB;
+USE RegistreContactsDB;
+
+CREATE TABLE Contacts(
+    Id INT PRIMARY KEY AUTO_INCREMENT,
+    Nom VARCHAR(255) NOT NULL,
+    Email VARCHAR(255) NOT NULL,
+    CodeSCN VARCHAR(255),
+    TypeContact VARCHAR(255) NOT NULL
+);
